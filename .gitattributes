@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.md text working-tree-encoding=UTF-8
+*.py text working-tree-encoding=UTF-8
+*.json text working-tree-encoding=UTF-8
+*.docx binary
+*.png binary
