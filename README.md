@@ -16,7 +16,7 @@
 
 ## 直接使用
 
-下载 Releases 中的 Windows 压缩包，完整解压后运行 `MarkdownToWord/MarkdownToWord.exe`。请保留 EXE 旁边的 `_internal` 文件夹。
+下载 [`release/MarkdownToWord-Windows.zip`](release/MarkdownToWord-Windows.zip)，完整解压后运行 `MarkdownToWord/MarkdownToWord.exe`。请保留 EXE 旁边的 `_internal` 文件夹。该 ZIP 保留了旧版下载包的全部内容。
 
 输出文档可以使用 Microsoft Word、WPS 或其他支持 DOCX 的软件打开。
 
