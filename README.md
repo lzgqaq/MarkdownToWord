@@ -2,7 +2,7 @@
 
 一个在 Windows 上本地运行的 Markdown 到 Word（DOCX）转换工具。
 
-旧版提供简单的桌面界面：选择 Markdown 文件，程序使用 Pandoc 生成可编辑的 Word 文档。文件不会上传到网络。
+程序提供简单的桌面界面：选择 Markdown 文件，使用 Pandoc 生成可编辑的 Word 文档。文件不会上传到网络。
 
 ## 功能
 
@@ -16,13 +16,13 @@
 
 ## 直接使用
 
-下载 [`release/MarkdownToWord-Windows.zip`](release/MarkdownToWord-Windows.zip)，完整解压后运行 `MarkdownToWord/MarkdownToWord.exe`。请保留 EXE 旁边的 `_internal` 文件夹。该 ZIP 保留了旧版下载包的全部内容。
+下载 [`release/MarkdownToWord-Windows.zip`](release/MarkdownToWord-Windows.zip)，完整解压后运行 `MarkdownToWord/MarkdownToWord.exe`。请保留 EXE 旁边的 `_internal` 文件夹。该 ZIP 包含程序、运行库、Pandoc、示例和使用说明。
 
 输出文档可以使用 Microsoft Word、WPS 或其他支持 DOCX 的软件打开。
 
 ## 从源码运行
 
-需要 Windows 64 位 Python 3.12 或更新版本，并带 Tkinter。
+需要 Windows 64 位 Python 3.10 或更新版本，并带 Tkinter。
 
 ```powershell
 python -m venv .venv
@@ -63,7 +63,7 @@ python source/build.py
 
 ## 限制
 
-复杂 HTML、Mermaid 流程图和特殊 Markdown 扩展不保证还原。数学公式由 Pandoc 尝试转换，但旧版没有对复杂公式做专项处理。输出排版可能与 Markdown 编辑器的网页预览不同。
+复杂 HTML、Mermaid 流程图和特殊 Markdown 扩展不保证还原。数学公式由 Pandoc 尝试转换，但未对复杂公式做专项处理。输出排版可能与 Markdown 编辑器的网页预览不同。
 
 ## 许可
 
