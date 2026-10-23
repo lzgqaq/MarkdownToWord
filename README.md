@@ -4,6 +4,8 @@
 
 程序提供简单的桌面界面：选择 Markdown 文件，使用 Pandoc 生成可编辑的 Word 文档。文件不会上传到网络。
 
+![Markdown 转 Word 界面](docs/screenshot.png)
+
 ## 功能
 
 - 一至六级标题、中文段落、粗体、斜体、删除线
@@ -16,7 +18,7 @@
 
 ## 直接使用
 
-下载 [`release/MarkdownToWord-Windows.zip`](release/MarkdownToWord-Windows.zip)，完整解压后运行 `MarkdownToWord/MarkdownToWord.exe`。请保留 EXE 旁边的 `_internal` 文件夹。该 ZIP 包含程序、运行库、Pandoc、示例和使用说明。
+下载 [`release/MarkdownToWord-Windows.zip`](release/MarkdownToWord-Windows.zip)，或从 [Releases](https://github.com/lzgqaq/MarkdownToWord/releases/latest) 下载最新发行版。完整解压后运行 `MarkdownToWord/MarkdownToWord.exe`。请保留 EXE 旁边的 `_internal` 文件夹。该 ZIP 包含程序、运行库、Pandoc、示例和使用说明。
 
 输出文档可以使用 Microsoft Word、WPS 或其他支持 DOCX 的软件打开。
 
