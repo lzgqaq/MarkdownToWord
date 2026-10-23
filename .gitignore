@@ -12,7 +12,8 @@ dist/
 *.log
 *.tmp
 
-# The extracted Windows distribution is kept locally for testing. The complete
-# package is published as release/MarkdownToWord-Windows.zip because pandoc.exe
-# exceeds GitHub's 100 MB per-file limit.
+# Extracted builds and distribution archives stay local. The Windows package is
+# published as a GitHub Release asset because pandoc.exe is very large.
 release/MarkdownToWord/
+release/MarkdownToWord-Windows.zip
+release/MarkdownToWord-Windows.zip.sha256

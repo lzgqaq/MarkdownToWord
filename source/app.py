@@ -16,8 +16,6 @@ class App:
         self.result = None
         self.events = queue.Queue()
         root.title('Markdown 转 Word')
-        root.geometry('740x510')
-        root.minsize(640, 470)
         root.configure(bg='#f3f5f8')
         root.protocol('WM_DELETE_WINDOW', self.close)
         style = ttk.Style()
@@ -58,6 +56,12 @@ class App:
         self.folder_button = ttk.Button(buttons,text='打开文件夹',state='disabled',command=lambda:self.open(True))
         self.folder_button.pack(side='left',padx=10)
         self.locked = [self.source_entry,self.output_entry,self.pick_button,self.save_button,self.convert_button]
+        # Size to the content so high-DPI font scaling cannot clip the bottom controls.
+        scale = root.winfo_fpixels('1i') / 96.0
+        root.update_idletasks()
+        width, height = int(740 * scale), max(root.winfo_reqheight(), 470)
+        root.geometry(f'{width}x{height}')
+        root.minsize(int(640 * scale), height)
         root.after(100,self.poll)
 
     def pick(self):

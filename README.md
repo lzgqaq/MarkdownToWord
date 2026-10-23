@@ -18,7 +18,7 @@
 
 ## 直接使用
 
-下载 [`release/MarkdownToWord-Windows.zip`](release/MarkdownToWord-Windows.zip)，或从 [Releases](https://github.com/lzgqaq/MarkdownToWord/releases/latest) 下载最新发行版。完整解压后运行 `MarkdownToWord/MarkdownToWord.exe`。请保留 EXE 旁边的 `_internal` 文件夹。该 ZIP 包含程序、运行库、Pandoc、示例和使用说明。
+从 [Releases](https://github.com/lzgqaq/MarkdownToWord/releases/latest) 下载 `MarkdownToWord-Windows.zip`。完整解压后运行 `MarkdownToWord/MarkdownToWord.exe`。请保留 EXE 旁边的 `_internal` 文件夹。该 ZIP 包含程序、运行库、Pandoc、示例和使用说明。
 
 输出文档可以使用 Microsoft Word、WPS 或其他支持 DOCX 的软件打开。
 
